@@ -1,0 +1,45 @@
+.navrow{
+    align-items: center;
+}
+.navbar{
+    padding-top: 0;
+}
+.contfluid{
+    padding: 0 4rem;
+}
+.navlink{
+    display: flex;
+    text-decoration:none ;
+    text-align: center;
+    padding: 1rem;
+}
+.link{
+    color: #fff;
+    margin-right: 1rem;
+    font-family: 'lufga';
+}
+.navbrand{
+    background: #23212B;
+    width:100%;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.singup{
+    color: #D47C88;
+    text-align: right;
+    padding: 1.5rem;
+    font-family: 'lufga';
+}
+.Brandtext{
+    color: #fff;
+    font-size:2rem;
+    text-align: left;
+    padding: 1.5rem;
+    font-family: 'lufga';   
+}
+@media (min-width:320px) and (max-width: 767px) {
+    .contfluid{
+        padding: 0 1rem;
+    }
+}

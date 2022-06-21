@@ -1,0 +1,43 @@
+.companydata{
+    background: rgba(180, 180, 180, 0.25);
+    padding: 4rem 0;
+}
+.background{
+    background: linear-gradient(90deg, #E39BA6 0%, #D47C88 100%);
+    padding: 2rem 0;
+    border-radius: 20rem;
+    width: 12rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed #fff;
+    border-radius: 20rem;
+    padding: 1rem;
+}
+.details img{
+  padding: 0.5rem 0;
+}
+.details h3{
+   font-size: 60px;
+   color: #fff;
+   font-weight: 700;
+   font-family: sans-serif;
+  }
+  .details p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'lufga';
+    color: #fff;
+  }
+  @media (min-width:320px) and (max-width: 767px) {
+    .details{
+      padding: 0.5rem;
+    }
+  }

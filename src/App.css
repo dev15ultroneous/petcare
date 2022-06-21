@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "lufga";   /*Can be any text*/
+  src: local("lufga"),
+    url("./fonts/Fontspring-DEMO-lufga-bold.otf") format("truetype");
+    src: local("lufga"),
+    url("./fonts/Fontspring-DEMO-lufga-extrabold.otf") format("truetype");
+    src: local("lufga"),
+    url("./fonts/Fontspring-DEMO-lufga-light.otf") format("truetype");
+    src: local("lufga"),
+    url("./fonts/Fontspring-DEMO-lufga-medium.otf") format("otf");
+    src: local("lufga"),
+    url("./fonts/Fontspring-DEMO-lufga-extralight.otf") format("truetype");
+
+}
+
+
+
+
 .App {
   text-align: center;
 }
@@ -34,5 +52,238 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.Introduction{
+padding: 6rem 0;
+}
+.Introtext{
+  background: url(../src/img/Ellipse\ 39.svg) no-repeat;
+  height: auto;
+}
+.Introtext h2{
+  font-size: 60px;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  padding-top: 4rem;
+  padding-left: 3rem;
+  font-family: 'lufga';
+}
+.Introtext span{
+  font-size: 60px;
+  font-weight: 700;
+  color: #D47C88;
+  font-family: 'lufga';
+}
+.Introtext p{
+  font-size: 22px;
+  font-weight: 400;
+  color: #B4B4B4;
+  text-align: left;
+  padding: 2rem 4rem;
+  font-family: 'lufga';
+}
+.img{
+  padding-bottom: 5rem;
+}
+.img1{
+  padding-top: 5rem;
+}
+.pawimg{
+  padding: 5rem 2rem;
+}
+.card{
+  width: 15rem;
+  top: 25rem;
+  
+}
+.cardcol{
+  width: 25% !important;
+  padding: 0 !important;
+}
+.cardcol1{
+  padding: 0 !important;
+    width: 65% !important;
+}
+.card h3{
+  font-size: 20px;
+  margin: 0;
+}
+.card p{
+  font-size: 16px;
+  margin: 0;
+  color: #B4B4B4;
+}
+.card1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  width: 15rem;
+float: right;
+top:14rem;
+}
+.card1 h3{
+  font-size: 20px;
+  margin: 0;
+}
+.card1 p{
+  font-size: 16px;
+  margin: 0;
+  color: #B4B4B4;
+}
+.card2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  width: 15rem;
+  left: 11rem;
+  bottom: 2rem;
+}
+.card2 h3{
+  font-size: 20px;
+  margin: 0;
+}
+.card2 p{
+  font-size: 16px;
+  margin: 0;
+  color: #B4B4B4;
+}
+.pricebutton{
+  text-align: left;
+}
+.bookbutton{
+  text-align: right;
+}
+.Servicesfluffy{
+  background: rgba(180, 180, 180, 0.25);
+  padding: 6rem 0;
+  padding-bottom: 0;
+}
+.Servicesfluffy h2{
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'lufga';
+}
+.Servicesfluffy p{
+  font-size: 22px;
+  font-weight: 400;
+  color: #B4B4B4;
+  padding-top: 1rem;
+  font-family: 'lufga';
+}
+.Servicesimg span{
+  font-size: 24px;
+  font-weight: 700;
+  color: #23212B;
+  font-family: 'lufga';
+}
+.Servicesimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Servicesrow{
+  justify-content: space-evenly;
+  padding: 6rem 0;
+}
+.SFimg{
+  width: 8rem;
+  height: 8rem;
+}
+
+.FurrySafeHands{
+  padding: 6rem 0;
+}
+.FurrySafeHands p{
+  font-size: 22px;
+  font-weight: 400;
+  color: #B4B4B4;
+  text-align: justify;
+  font-family: 'lufga';
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  will-change: transform;
+}
+ /* width  */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* / Track / */
+::-webkit-scrollbar-track {
+}
+
+/* / Handle / */
+::-webkit-scrollbar-thumb {
+  background: #323232;
+  border-radius: 20px;
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+  .Introtext span{
+    font-size: 40px;
+  }
+  .Introtext p{
+    font-size: 18px;
+    padding: 2rem 2rem;
+  }
+  .card1{
+    top: 4rem;
+  }
+  .card{
+    top: 18rem;
+  }
+  .card2{
+    left: 3rem;
+  }
+  .Servicesfluffy h2{
+    font-size: 30px;
+  }
+  .Servicesfluffy p{
+    font-size: 18px;
+  }
+  .SFimg{
+    width: 4rem;
+    height: 4rem;
+  }
+  .Servicesimg span{
+    font-size: 18px;
+  }
+  .Servicesrow{
+    padding: 3rem 0;
+  }
+  .FurrySafeHands{
+    padding: 3rem 0;
+  }
+  .FurrySafeHands p{
+    font-size: 18px;
+    padding-left: 2rem;
+  }
+  .Readmore{
+    padding-bottom: 1rem;
+  }
+  .Safehandimg{
+    width: 100%;
+    height: auto;
   }
 }
