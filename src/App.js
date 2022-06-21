@@ -26,6 +26,9 @@ import Footer from "./components/Footercomponent";
 import SmoothScroll from "./components/SmoothScroll.component";
 import Caredetail from "./components/Carepagecomponent";
 import Signuppage from "./components/Signup";
+import safty from "./img/safty.svg";
+import house from "./img/house.svg";
+
 function App() {
   return (
     <div className="App">
@@ -70,6 +73,23 @@ function App() {
                         Price Pack
                       </Button>
                     </Col>
+                    <section className="Doitsection">
+                      <button id="doitnow"> Do it Now...!!</button>
+                      <div class="lds-spinner">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                      </div>
+                    </section>
                   </Row>
                 </div>
               </Col>
@@ -89,11 +109,11 @@ function App() {
                 <div className="card1">
                   <Row className="align-items-center">
                     <Col xl={6} className="cardcol">
-                      <img src={video} />
+                      <img src={safty} />
                     </Col>
                     <Col xl={6} className="cardcol1">
-                      <h3>Moniter your pet</h3>
-                      <p>We have a watch 24*7</p>
+                      <h3>Safety First </h3>
+                      <p>We care them like babies</p>
                     </Col>
                   </Row>
                 </div>
@@ -101,11 +121,11 @@ function App() {
                 <div className="card2">
                   <Row className="align-items-center">
                     <Col xl={6} className="cardcol">
-                      <img src={video} />
+                      <img src={house} />
                     </Col>
                     <Col xl={6} className="cardcol1">
-                      <h3>Moniter your pet</h3>
-                      <p>We have a watch 24*7</p>
+                      <h3>Spacious play yards</h3>
+                      <p>We play on a field</p>
                     </Col>
                   </Row>
                 </div>

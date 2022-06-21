@@ -132,9 +132,10 @@ top:14rem;
 .card1 h3{
   font-size: 20px;
   margin: 0;
+  text-align: left;
 }
 .card1 p{
-  font-size: 16px;
+  font-size: 15px;
   margin: 0;
   color: #B4B4B4;
 }
@@ -148,24 +149,26 @@ top:14rem;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
-  width: 15rem;
+  width: 16rem;
   left: 11rem;
   bottom: 2rem;
 }
 .card2 h3{
   font-size: 20px;
   margin: 0;
+  text-align: left;
 }
 .card2 p{
   font-size: 16px;
   margin: 0;
   color: #B4B4B4;
+  text-align: left;
 }
 .pricebutton{
   text-align: left;
 }
 .bookbutton{
-  text-align: right;
+  text-align: inherit;
 }
 .Servicesfluffy{
   background: rgba(180, 180, 180, 0.25);
@@ -286,4 +289,77 @@ top:14rem;
     width: 100%;
     height: auto;
   }
+}
+
+@media (min-width:768px) and (max-width: 1080px) {
+   .Servicesimg{
+    padding-bottom: 2rem;
+   }
+}
+.lds-spinner {
+  color: official;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  right: 3rem;
+  height: 80px;
+  top: 2rem;
+}
+
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+
+
+
+
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 20%;
+  background: rgba(227, 155, 166, 0.3);
+
+}
+
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+
+
+@keyframes lds-spinner {
+  0% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+#doitnow{
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: #23212B;
+  font-weight: 400;
+  
+}
+.Doitsection{
+  padding-top: 2rem;
 }

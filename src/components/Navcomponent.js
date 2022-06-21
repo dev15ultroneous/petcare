@@ -9,10 +9,10 @@ const Nav = () => {
       <Container fluid className="contfluid">
         <div className="navbrand">
           <Row className="navrow">
-            <Col xl={4}>
+            <Col xl={4} md={6} className="petcare">
               <h2 className="Brandtext">Petcare.</h2>
             </Col>
-            <Col xl={6} className="navlink">
+            <Col xl={6} md={6} className="navlink">
               <NavLink className="link" href="#">
                 Home
               </NavLink>
@@ -27,8 +27,12 @@ const Nav = () => {
               </NavLink>
             </Col>
             <Col xl={2}>
-              <NavLink className="signup" href="#" style={{ color: "#d7818d" }}>
-                Sing up <MdArrowRightAlt />
+              <NavLink
+                className="signup"
+                href="#"
+                style={{ color: "#d7818d", fontSize: "20px" }}
+              >
+                Sign up <MdArrowRightAlt />
               </NavLink>
             </Col>
           </Row>

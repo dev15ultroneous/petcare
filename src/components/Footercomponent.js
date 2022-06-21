@@ -1,18 +1,23 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import "../components/Footercomponent.css";
 import Submit from "../img/Submit.svg";
+import dribbble from "../img/dribbble.svg";
+import facebook from "../img/facebook.svg";
+import figma from "../img/figma.svg";
+import whatsapp from "../img/whatsapp.svg";
+import youtube from "../img/youtube.svg";
 
 const footer = () => {
   return (
     <section className="Footer">
       <Container fluid className="contfluid">
         <Row>
-          <Col xl={6} xs={12} className="footerfirst">
+          <Col xl={6} xs={12} md={12} className="footerfirst">
             <h2>Subscribe to our newsletter</h2>
             <input type="text" placeholder="Email address" className="input" />
             <img src={Submit} />
           </Col>
-          <Col xl={2} xs={6}>
+          <Col xl={2} xs={6} md={4}>
             <div className="Footerleft">
               <h3>About</h3>
 
@@ -23,7 +28,7 @@ const footer = () => {
               </ul>
             </div>
           </Col>
-          <Col xl={2} xs={6}>
+          <Col xl={2} xs={6} md={4}>
             <div className="Footerleft">
               <h3>Support</h3>
               <ul style={{ padding: "0" }}>
@@ -34,7 +39,7 @@ const footer = () => {
               </ul>
             </div>
           </Col>
-          <Col xl={2} xs={6}>
+          <Col xl={2} xs={6} md={4}>
             <div className="Footerleft">
               <h3>FAQ</h3>
               <ul style={{ padding: "0" }}>
@@ -46,11 +51,31 @@ const footer = () => {
           </Col>
         </Row>
         <Row className="footersecond">
-          <Col xl={4} xs={12}>
+          <Col xl={4} xs={12} md={12}>
             <h4 className="Brandtextfooter">Petcare.</h4>
           </Col>
-          <Col xl={4}></Col>
-          <Col xl={4} xs={12}>
+          <Col xl={4}>
+            <div className="socialmedia">
+              <Row>
+                <Col xl={2}>
+                  <Image src={facebook} />
+                </Col>
+                <Col xl={2}>
+                  <Image src={youtube} />
+                </Col>
+                <Col xl={2}>
+                  <Image src={dribbble} />
+                </Col>
+                <Col xl={2}>
+                  <Image src={figma} />
+                </Col>
+                <Col xl={2}>
+                  <Image src={whatsapp} />
+                </Col>
+              </Row>
+            </div>
+          </Col>
+          <Col xl={4} xs={12} md={12}>
             <span>© 2000-2021, All Rights Reserved</span>
           </Col>
         </Row>

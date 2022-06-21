@@ -1,23 +1,26 @@
 import ribbine from "../img/ribbine.svg";
+import people from "../img/people.svg";
+import dogplay from "../img/dogplay.svg";
+import security from "../img/security.svg";
 
 export const companydata = [
   {
     image: ribbine,
     title: "85+",
-    describe: "Award",
+    describe: "Our Award",
   },
   {
-    image: ribbine,
+    image: people,
     title: "90+",
-    describe: "Clients",
+    describe: " Our Clients",
   },
   {
-    image: ribbine,
+    image: dogplay,
     title: "60+",
     describe: "Employee",
   },
   {
-    image: ribbine,
+    image: security,
     title: "99%",
     describe: "Protection",
   },
