@@ -55,12 +55,16 @@
 .Footerleft{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-direction: column;
 }
 .footerfirst {
     text-align: left;
 }
+.socialimg{
+    padding-right: 1rem;
+}
+
 @media (min-width:320px) and (max-width: 767px) {
     .footerfirst {
         text-align: left;
@@ -68,6 +72,27 @@
     }
     .Brandtextfooter{
         text-align: center;
+    }
+    .footermob{
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        text-align: left;
+        padding-bottom: 1rem;
+    }
+
+    .socialmedia{
+        padding: 1rem 0;
+    } 
+    .Footerleft{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            flex-direction: column;
+             text-align: left;
+    }
+    .socialimg{
+        padding-right: 0.5rem;
     }
 }
 @media (min-width:768px) and (max-width: 1080px){

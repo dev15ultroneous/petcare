@@ -33,17 +33,26 @@ const Caredetail = () => {
           <Col xl={6} style={{ textAlign: "left" }}>
             <Image src={videogirl} className="Carevideo" />
           </Col>
-          {/* {carepagedetail.map((value, index) => ( */}
           <Col xl={6}>
             <Heading text="How we take care of your Pets" />
             <span>{carepagedetail[currentIndex].subtitle}</span>
             <p>{carepagedetail[currentIndex].details}</p>
-            <Row>
+            <Row
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               <Col
-                xl={4}
+                xl={3}
                 xs={3}
                 className="pagebutton"
-                style={{ textAlign: "initial", paddingLeft: "3rem" }}
+                style={{
+                  textAlign: "center",
+                  paddingLeft: "3rem",
+                  width: "15%",
+                }}
               >
                 <Button onClick={() => Prev()}>
                   <div>
@@ -51,8 +60,8 @@ const Caredetail = () => {
                   </div>
                 </Button>
               </Col>
-              <Col xl={4} xs={6}>
-                <div>
+              <Col xl={6} xs={6} style={{ width: "60%" }}>
+                <div style={{ paddingLeft: "2.5rem" }}>
                   {carepagedetail.map((v, i) => (
                     <button
                       key={i}
@@ -65,9 +74,9 @@ const Caredetail = () => {
                 </div>
               </Col>
               <Col
-                xl={4}
+                xl={3}
                 xs={3}
-                style={{ textAlign: " end", paddingRight: "3rem" }}
+                style={{ textAlign: "center", paddingRight: "3rem" }}
               >
                 <Button onClick={() => Next()}>
                   <Image src={next} />
@@ -75,7 +84,6 @@ const Caredetail = () => {
               </Col>
             </Row>
           </Col>
-          {/* ))} */}
         </Row>
       </Container>
     </section>

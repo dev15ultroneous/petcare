@@ -17,7 +17,7 @@ const footer = () => {
             <input type="text" placeholder="Email address" className="input" />
             <img src={Submit} />
           </Col>
-          <Col xl={2} xs={6} md={4}>
+          <Col xl={2} xs={12} md={4} className="footermob">
             <div className="Footerleft">
               <h3>About</h3>
 
@@ -28,7 +28,7 @@ const footer = () => {
               </ul>
             </div>
           </Col>
-          <Col xl={2} xs={6} md={4}>
+          <Col xl={2} xs={12} md={4} className="footermob">
             <div className="Footerleft">
               <h3>Support</h3>
               <ul style={{ padding: "0" }}>
@@ -39,7 +39,7 @@ const footer = () => {
               </ul>
             </div>
           </Col>
-          <Col xl={2} xs={6} md={4}>
+          <Col xl={2} xs={12} md={4} className="footermob">
             <div className="Footerleft">
               <h3>FAQ</h3>
               <ul style={{ padding: "0" }}>
@@ -56,23 +56,15 @@ const footer = () => {
           </Col>
           <Col xl={4}>
             <div className="socialmedia">
-              <Row>
-                <Col xl={2}>
-                  <Image src={facebook} />
-                </Col>
-                <Col xl={2}>
-                  <Image src={youtube} />
-                </Col>
-                <Col xl={2}>
-                  <Image src={dribbble} />
-                </Col>
-                <Col xl={2}>
-                  <Image src={figma} />
-                </Col>
-                <Col xl={2}>
-                  <Image src={whatsapp} />
-                </Col>
-              </Row>
+              <Image src={facebook} className="socialimg" />
+
+              <Image src={youtube} className="socialimg" />
+
+              <Image src={dribbble} className="socialimg" />
+
+              <Image src={figma} className="socialimg" />
+
+              <Image src={whatsapp} className="socialimg" />
             </div>
           </Col>
           <Col xl={4} xs={12} md={12}>

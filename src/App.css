@@ -166,6 +166,7 @@ top:14rem;
 }
 .pricebutton{
   text-align: left;
+  margin-left: -3rem;
 }
 .bookbutton{
   text-align: inherit;
@@ -241,6 +242,12 @@ top:14rem;
   background: #323232;
   border-radius: 20px;
 }
+.Readmore{
+  text-align:left;
+  display:flex;
+  align-items:center;
+  padding-left:2rem;
+}
 
 @media (min-width:320px) and (max-width: 767px) {
   .Introtext span{
@@ -284,11 +291,31 @@ top:14rem;
   }
   .Readmore{
     padding-bottom: 1rem;
+   padding-left: 1.5rem;
   }
   .Safehandimg{
     width: 100%;
     height: auto;
   }
+  .Servicesimg{
+    padding-bottom: 2rem;
+  }
+  .lds-spinner {
+    color: official;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    right: 3rem;
+    height: 80px;
+    top: -3rem !important;
+    left: 8rem;
+}
+.pricebutton{
+  margin-left: 0;
+}
+.bookbutton {
+  text-align: end;
+}
 }
 
 @media (min-width:768px) and (max-width: 1080px) {
@@ -303,7 +330,7 @@ top:14rem;
   width: 80px;
   right: 3rem;
   height: 80px;
-  top: 2rem;
+  top: 5rem;
 }
 
 .lds-spinner div {
@@ -358,6 +385,8 @@ top:14rem;
   font-size: 30px;
   color: #23212B;
   font-weight: 400;
+  position: relative;
+  top: 4.5rem;
   
 }
 .Doitsection{

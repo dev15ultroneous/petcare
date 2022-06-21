@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import Nav from "./components/Navcomponent";
 import girl from "./img/girl.png";
 import Dog from "./img/Dog.svg";
@@ -28,6 +28,7 @@ import Caredetail from "./components/Carepagecomponent";
 import Signuppage from "./components/Signup";
 import safty from "./img/safty.svg";
 import house from "./img/house.svg";
+import arrow from "./img/arrow.svg";
 
 function App() {
   return (
@@ -74,6 +75,8 @@ function App() {
                       </Button>
                     </Col>
                     <section className="Doitsection">
+                      <Image src={arrow} />
+
                       <button id="doitnow"> Do it Now...!!</button>
                       <div class="lds-spinner">
                         <div></div>
@@ -181,27 +184,19 @@ function App() {
                   all pets & also training tracks, and experts whom you can
                   bring to train your pet. Also,...
                 </p>
-                <div
-                  className="Readmore"
-                  style={{
-                    textAlign: "left",
-                    display: "flex",
-                    alignItems: "center",
-                  }}
-                >
+                <div className="Readmore">
                   <Readbutton
                     text="Read more"
                     style={{
                       background: "none",
                       color: "#D47C88",
                       border: "none",
-                      paddingLeft: "3rem",
                     }}
                   />
                   <FaLongArrowAltRight style={{ color: "#D47C88" }} />
                 </div>
               </Col>
-              <Col xl={6}>
+              <Col xl={6} style={{ textAlign: "end" }}>
                 <img src={Safehand} className="Safehandimg" />
               </Col>
             </Row>
