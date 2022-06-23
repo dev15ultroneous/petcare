@@ -68,7 +68,7 @@ const footer = () => {
             </div>
           </Col>
           <Col xl={4} xs={12} md={12}>
-            <span>© 2000-2021, All Rights Reserved</span>
+            <span>© 2021, All Rights Reserved</span>
           </Col>
         </Row>
       </Container>

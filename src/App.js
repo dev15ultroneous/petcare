@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
-import Nav from "./components/Navcomponent";
+import Navbarcomponent from "./components/Navbarcomponent";
 import girl from "./img/girl.png";
 import Dog from "./img/Dog.svg";
 import Dog2 from "./img/Dog2.svg";
@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       <SmoothScroll>
         {/* <Signuppage /> */}
-        <Nav />
+        <Navbarcomponent />
         <section className="Introduction">
           <Container fluid className="contfluid">
             <Row>
@@ -150,19 +150,19 @@ function App() {
               </Col>
               <Col xl={2} xs={6} className="Servicesimg">
                 <img src={SF1} className="SFimg" />
-                <span>Litter & Litter Boxes</span>
+                <span>Litter and Litter Boxes</span>
               </Col>
               <Col xl={2} xs={6} className="Servicesimg">
                 <img src={SF3} className="SFimg" />
-                <span>Health & Wellbeing</span>
+                <span>Health and Wellbeing</span>
               </Col>
               <Col xl={2} xs={6} className="Servicesimg">
                 <img src={SF4} className="SFimg" />
-                <span>Grooimg & Care</span>
+                <span>Grooimg and Care</span>
               </Col>
               <Col xl={2} xs={6} className="Servicesimg">
                 <img src={SF5} className="SFimg" />
-                <span>Beds & Furniture</span>
+                <span>Beds and Furniture</span>
               </Col>
             </Row>
           </Container>

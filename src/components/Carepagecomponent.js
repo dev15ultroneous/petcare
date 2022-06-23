@@ -7,6 +7,7 @@ import { carepagedetail } from "../util/Listofdata";
 import { Prev } from "react-bootstrap/esm/PageItem";
 import prev from "../img/prev.svg";
 import next from "../img/next.svg";
+import videobutton from "../img/videobutton.svg";
 
 const Caredetail = () => {
   const [currentIndex, SetcurrentIndex] = useState(0);
@@ -32,6 +33,11 @@ const Caredetail = () => {
         <Row className="Careall">
           <Col xl={6} style={{ textAlign: "left" }}>
             <Image src={videogirl} className="Carevideo" />
+            <Image
+              src={videobutton}
+              className="Videobutton"
+              onClick={() => alert("There is no video")}
+            />
           </Col>
           <Col xl={6}>
             <Heading text="How we take care of your Pets" />

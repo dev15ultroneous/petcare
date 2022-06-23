@@ -44,6 +44,10 @@
 .btn-check:focus+.btn-primary, .btn-primary:focus {
   border-color: transparent;
 }
+.Videobutton{
+  position: relative;
+  right: 3.9rem;
+}
 @media (min-width:320px) and (max-width: 767px){
   .Care span{
     font-size: 20px;
