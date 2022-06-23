@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
-import Navbarcomponent from "./components/Navbarcomponent";
+import NavBarcomponent from "./components/NavBarcomponent";
 import girl from "./img/girl.png";
 import Dog from "./img/Dog.svg";
 import Dog2 from "./img/Dog2.svg";
@@ -16,15 +16,16 @@ import SF3 from "./img/SF3.svg";
 import SF4 from "./img/SF4.svg";
 import SF5 from "./img/SF5.svg";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import ReadmoreButton from "./components/ReadmoreButtoncomponent";
-import Readbutton from "./components/ReadmoreButtoncomponent";
+import ReadMoreButton from "./components/ReadMoreButtoncomponent";
+import Readbutton from "./components/ReadMoreButtoncomponent";
 import Main from "./img/Main.png";
 import Safehand from "./img/Safehand.svg";
-import Companydetail from "./components/Companydetailcomponent";
-import Clientfeedback from "./components/Clientfeedbackcomponent";
+import CompanyDetail from "./components/CompanyDetailcomponent";
+import Clientfeedback from "./components/ClientFeedbackcomponent";
+import ClientFeedback from "./components/ClientFeedbackcomponent";
 import Footer from "./components/Footercomponent";
 import SmoothScroll from "./components/SmoothScroll.component";
-import Caredetail from "./components/Carepagecomponent";
+import Caredetail from "./components/CarePagecomponent";
 import Signuppage from "./components/Signup";
 import safty from "./img/safty.svg";
 import house from "./img/house.svg";
@@ -35,7 +36,7 @@ function App() {
     <div className="App">
       <SmoothScroll>
         {/* <Signuppage /> */}
-        <Navbarcomponent />
+        <NavBarcomponent />
         <section className="Introduction">
           <Container fluid className="contfluid">
             <Row>
@@ -202,8 +203,8 @@ function App() {
             </Row>
           </Container>
         </section>
-        <Companydetail />
-        <Clientfeedback />
+        <CompanyDetail />
+        <ClientFeedback />
         <Footer />
       </SmoothScroll>
     </div>

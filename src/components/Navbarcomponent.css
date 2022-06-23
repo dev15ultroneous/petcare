@@ -56,3 +56,12 @@
     display: flex;
     justify-content: end;
 }
+@media (min-width:320px) and (max-width: 767px) {
+    .Brandname{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding-bottom: 1rem;
+    }
+}

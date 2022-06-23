@@ -67,7 +67,7 @@ const Caredetail = () => {
                 </Button>
               </Col>
               <Col xl={6} xs={6} style={{ width: "60%" }}>
-                <div style={{ paddingLeft: "2.5rem" }}>
+                <div className="pagenatation">
                   {carepagedetail.map((v, i) => (
                     <button
                       key={i}

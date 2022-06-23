@@ -48,12 +48,15 @@
   position: relative;
   right: 3.9rem;
 }
+.pagenatation{
+  padding-left: 2.5rem;
+}
 @media (min-width:320px) and (max-width: 767px){
   .Care span{
     font-size: 20px;
     text-align: left;
     padding: 2rem 2rem;
-    padding-right: 0;
+   
   }
   .Care p{
     padding-left: 2rem;
@@ -80,8 +83,23 @@
     margin-left: 0rem;
     border: none;
     background: none;
-    font-size: 20px;
+    font-size:18px;
     color: #B4B4B4;
     margin-right: 0.5rem;
 }
+.contfluid{
+  padding: 0 1rem !important;
+}
+.Videobutton{
+  position: relative;
+  right:0;
+  left: 7rem;
+  bottom: 5rem;
+}
+.pagenatation{
+  padding-left: 4rem;
+}
+}
+.contfluid{
+  padding: 0 4rem;
 }
